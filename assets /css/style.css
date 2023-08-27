@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body h1 h2 h3{
+    font-weight: 500;
+}
+body h4 h5 h6 p{
+    font-weight: 300;
+    color: #707070;
+}
+/*navbar*/
+nav{
+    font-family: 'Roboto', sans-serif;
+    background-color: #28A745;
+}
+.navbar .navbar-collapse{
+    justify-content: right;
+}
+.img-nav{
+    padding-left: 10px;
+}
+nav ul .navbar-nav{
+    text-align: right;
+    justify-content: right;
+}
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: end;
+}
+/*Grid */
+.card-title{
+    font-size: 16pt;
+    font-weight: 300;
+    color: #212529;
+}
+.card-text{
+    font-weight: 300;
+    color: #707070;
+    font-size: 13pt;
+}
+.card-p{
+    font-size: 13pt;
+    color: #707070;
+    font-weight: 300;
+}
+.price{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.price-may{
+    color: #707070;
+    font-size: 16px;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.price-min{
+    color: #28A745;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/*Formulario*/
+.form{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    background-color: #28A745;
+    color: #FFFFFF;
+}
+.form .box{
+    padding-left: 15px;
+    font-size: 12pt;
+    font-weight: 300;
+    color: #707070;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    height: 40px;
+}
+section button{
+    width: 120px;
+    height: 40px;
+}
+section .title{
+    justify-content: center;
+    font-weight: 500;
+    font-size: 21pt;
+    margin-bottom: 0%;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+/*Footer*/
+footer{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #707070;
+    font-weight: 300;
+    width: 100%;
+    height: 100px;
+}
